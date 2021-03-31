@@ -4,7 +4,7 @@ import org.springframework.boot.ApplicationArguments;
 import org.springframework.boot.ApplicationRunner;
 import org.springframework.stereotype.Component;
 
-@Component
+//@Component
 public class MergeSortRunner implements ApplicationRunner {
     private void mergeSort(int[] arr) {
         int[] tmp = new int[arr.length];

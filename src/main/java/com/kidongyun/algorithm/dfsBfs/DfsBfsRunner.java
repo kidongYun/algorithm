@@ -3,7 +3,6 @@ package com.kidongyun.algorithm.dfsBfs;
 import com.kidongyun.algorithm.queue.Queue;
 import org.springframework.boot.ApplicationArguments;
 import org.springframework.boot.ApplicationRunner;
-import org.springframework.stereotype.Component;
 
 import java.util.LinkedList;
 import java.util.Stack;
@@ -116,7 +115,7 @@ class Graph {
     }
 }
 
-@Component
+//@Component
 public class DfsBfsRunner implements ApplicationRunner {
     @Override
     public void run(ApplicationArguments args) throws Exception {

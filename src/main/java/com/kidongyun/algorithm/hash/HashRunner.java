@@ -86,7 +86,7 @@ class HashTable {
     }
 }
 
-@Component
+//@Component
 public class HashRunner implements ApplicationRunner {
     @Override
     public void run(ApplicationArguments args) throws Exception {
